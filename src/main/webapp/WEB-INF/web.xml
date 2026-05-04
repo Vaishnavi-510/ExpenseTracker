@@ -1,0 +1,144 @@
+<web-app>
+<welcome-file-list>
+    <welcome-file>home.jsp</welcome-file>
+</welcome-file-list>
+
+<servlet>
+  <servlet-name>RegisterServlet</servlet-name>
+  <servlet-class>servlet.RegisterServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>RegisterServlet</servlet-name>
+  <url-pattern>/RegisterServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>LoginServlet</servlet-name>
+  <servlet-class>servlet.LoginServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>LoginServlet</servlet-name>
+  <url-pattern>/LoginServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>AddExpenseServlet</servlet-name>
+  <servlet-class>servlet.AddExpenseServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>AddExpenseServlet</servlet-name>
+  <url-pattern>/AddExpenseServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+  <servlet-name>CreateGroupServlet</servlet-name>
+  <servlet-class>servlet.CreateGroupServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>CreateGroupServlet</servlet-name>
+  <url-pattern>/CreateGroupServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>JoinGroupServlet</servlet-name>
+  <servlet-class>servlet.JoinGroupServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>JoinGroupServlet</servlet-name>
+  <url-pattern>/JoinGroupServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>AddGroupExpenseServlet</servlet-name>
+  <servlet-class>servlet.AddGroupExpenseServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>AddGroupExpenseServlet</servlet-name>
+  <url-pattern>/AddGroupExpenseServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+  <servlet-name>DeleteExpenseServlet</servlet-name>
+  <servlet-class>servlet.DeleteExpenseServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>DeleteExpenseServlet</servlet-name>
+  <url-pattern>/DeleteExpenseServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>UpdateExpenseServlet</servlet-name>
+  <servlet-class>servlet.UpdateExpenseServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>UpdateExpenseServlet</servlet-name>
+  <url-pattern>/UpdateExpenseServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>SetBudgetServlet</servlet-name>
+  <servlet-class>servlet.SetBudgetServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>SetBudgetServlet</servlet-name>
+  <url-pattern>/SetBudgetServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+        <servlet-name>ForgotServlet</servlet-name>
+        <servlet-class>servlet.ForgotServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ForgotServlet</servlet-name>
+        <url-pattern>/ForgotServlet</url-pattern>
+    </servlet-mapping>
+
+
+    
+    <servlet>
+        <servlet-name>ResetServlet</servlet-name>
+        <servlet-class>servlet.ResetServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ResetServlet</servlet-name>
+        <url-pattern>/ResetServlet</url-pattern>
+    </servlet-mapping>
+    
+        <!-- Delete Group Expense -->
+<servlet>
+    <servlet-name>DeleteGroupExpenseServlet</servlet-name>
+    <servlet-class>servlet.DeleteGroupExpenseServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>DeleteGroupExpenseServlet</servlet-name>
+    <url-pattern>/DeleteGroupExpenseServlet</url-pattern>
+</servlet-mapping>
+
+<!-- Remove Member -->
+<servlet>
+    <servlet-name>RemoveMemberServlet</servlet-name>
+    <servlet-class>servlet.RemoveMemberServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>RemoveMemberServlet</servlet-name>
+    <url-pattern>/RemoveMemberServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>UpdateGroupExpenseServlet</servlet-name>
+    <servlet-class>servlet.UpdateGroupExpenseServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>UpdateGroupExpenseServlet</servlet-name>
+    <url-pattern>/UpdateGroupExpenseServlet</url-pattern>
+</servlet-mapping>
+</web-app>
